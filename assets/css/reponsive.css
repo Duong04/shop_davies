@@ -1,0 +1,364 @@
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    nav{
+        width: 750px;
+    }
+
+    .search-menu{
+        width: 78%;
+    }
+
+    .form-cart{
+        height: 60%;
+    }
+
+    .search{
+        width: 320px;
+    }
+
+    .sign-in{
+        width: 35%;
+    }
+
+    .sign-in button{
+        width: 90px;
+    }
+
+    /* banner */
+    .banner{
+        width: 750px;
+    }
+    
+    .banner button{
+        bottom: 65px;
+        left: 110px;
+    }
+    /* article */
+    article{
+        width: 750px;
+    }
+
+    .news-text p{
+        font-size: 0.8rem;
+    }
+
+    /* footer */
+    footer section{
+        width: 750px;
+    }
+
+    .help{
+        width: 20%;
+    }
+
+    .policy li,
+    .help li,
+    .rules li{
+        height: 27px;
+        font-size: 0.7rem;
+    }
+
+}
+
+/* mobile and small mobile */
+@media (max-width: 767px){
+    .menu-mobile{
+        display: block;
+    }
+
+    #menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: var(--white-color);
+        margin: auto;
+        box-shadow: 0 0 3px;
+        z-index: 1;
+        animation: madalFadeIn ease 0.5s;
+    }
+
+    #menu ul{
+        width: 100%;
+        display: block;
+    }
+
+    #menu li{
+        display: block;
+    }
+
+    #menu li a{
+        color: var(--black-color);
+        display: block;
+    }
+
+    #menu li a:hover{
+        background-color: var(--black-color);
+        color: var(--white-color);
+    }
+
+}
+
+/* mobile */
+@media (min-width: 480px) and (max-width: 767px){
+    header{
+        height: 90px;
+    }
+
+    .search-menu{
+        width: 76%;
+    }
+
+    nav{
+        width: 450px;
+        align-items: center;
+    }
+
+    #menu{
+        left: 0;
+        bottom: -170px;
+    }
+
+    .search-menu{
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .search input{
+        width: 81%;
+    }
+
+    .search button{
+        width: 15%;
+    }
+
+    .form-cart{
+        justify-content: space-evenly;
+    }
+
+    .form-cart form{
+        align-items: center;
+    }
+
+    .search{
+        height: 35px;
+    }
+
+    .sign-in{
+        height: 70px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+
+    .sign-in button{
+        width: 90px;
+        height: 30px;
+    }
+
+    /* banner */
+    .banner{
+        width: 450px;
+    }
+
+    .banner button{
+        bottom: 25px;
+        left: 50px;
+    }
+    /* article */
+    article{
+        width: 450px;
+    }
+
+    .products{
+        grid-template-columns: repeat(2, 46%);
+    }
+
+    .news{
+        grid-template-columns: repeat(1, 100%);   
+        justify-content: center;
+    }
+    /* footer */
+    footer section{
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .policy i,
+    .help i,
+    .rules i,
+    .chung-nhan i{
+        position: absolute;
+        display: block;
+        right: 100px;
+        top: 0;
+        cursor: pointer;
+    }
+
+    footer section ul{
+        display: none;
+        text-align: start;
+        margin-left: 140px;
+    }
+    .chung-nhan,
+    .policy,
+    .help,
+    .rules{
+        position: relative;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        margin: 0;
+        margin-bottom: 15px;
+    }   
+
+    .chung-nhan img{
+        width: 50%;
+        margin-left: 140px;
+        display: none;
+    }
+}
+
+@media (max-width: 479px){
+    header{
+        height: 70px;
+    }
+
+    nav{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .search-mobile{
+        display: block;
+        color: var(--white-color);
+        cursor: pointer;
+    }
+
+    .search-menu{
+        height: 100%;
+        width: 60%;
+    }
+
+    .form-cart{
+        height: 100%;
+    }
+
+    .form-cart form{
+        height: 100%;
+    }
+
+    #search{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        z-index: 2;
+        display: none;
+    }
+
+    .search input{
+        width: 80%;
+    }
+
+    .search button{
+        width: 18%;
+    }
+
+    .sign-in{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .sign-in button{
+        width: 40%;
+        margin-left: 10px;
+    }
+
+    #menu{
+        right: 0;
+    }
+
+    .menu-mobile{
+        margin-right: 10px;
+    }
+    /* banner */
+    .banner{
+        width: 100%;
+    }
+
+    .banner form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .banner button{
+        position: static;
+    }
+    /* article */
+    article{
+        width: 100%;
+    }
+
+    .products{
+        grid-template-columns: repeat(1, 90%);
+        justify-content: center;
+    }
+
+    .news{
+        grid-template-columns: repeat(1, 90%);   
+        justify-content: center;
+    }
+
+    /* footer */
+    footer section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .policy i,
+    .help i,
+    .rules i,
+    .chung-nhan i{
+        position: absolute;
+        display: block;
+        right: 100px;
+        top: 0;
+        cursor: pointer;
+    }
+
+    footer section ul{
+        display: none;
+        text-align: start;
+        margin-left: 140px;
+    }
+    .chung-nhan,
+    .policy,
+    .help,
+    .rules{
+        position: relative;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        margin: 0;
+        margin-bottom: 15px;
+    }   
+
+    .chung-nhan img{
+        width: 50%;
+        margin-left: 140px;
+        display: none;
+    }
+
+}

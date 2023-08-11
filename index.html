@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davies</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="./assets/css/reponsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href=""><img src="./assets/img/logo_banner/logo1_preview_rev_1.png" alt=""></a>
+            </div>
+            <div class="search-mobile">
+                <i onclick="showSearch()" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="search-menu">
+                <div class="form-cart">
+                    <form action="">
+                        <div id="search" class="search">
+                            <input type="text" placeholder="Bạn muốn mua gì?">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div class="sign-in">
+                            <button>Đăng nhập</button>
+                            <button>Đăng ký</button>
+                        </div>
+                    </form>
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                <menu id="menu">
+                    <ul>
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Đơn hàng</a></li>
+                    </ul>
+                </menu>
+            </div>
+            <div class="menu-mobile">
+                <i onclick="showMenu()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- banner -->
+    <div class="banner">
+        <a href="">
+            <img src="./assets/img/logo_banner/banner.jpg" alt="">
+        </a>
+        <form action="">
+            <button>Xem ngay</button>
+        </form>
+    </div>
+    <article>
+        <h3>Sản phẩm mới nhất</h3>
+        <div class="image-slider">
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh1.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    Jacket Elite
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh2.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    Base Backpack            
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh3.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    Tee ELI
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh4.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    Short Waffle Knit
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh5.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    Devil Mascot-Trắng
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh6.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    DSW Tee Hide Skull
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh7.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    DSW Tee D Basic
+                </h3>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="./assets/img/img-top/anh8.webp" alt="">
+                </div>
+                <h3 class="image-title">
+                    DSW D Basic Pant
+                </h3>
+            </div>
+        </div>
+        <div class="product-suggest">
+            <h3>Sản phẩm được gợi ý hôm nay</h3>
+            <div class="products">
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img1.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img2.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img3.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img4.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img5.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img6.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img7.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img8.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img9.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img10.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img11.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img12.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img13.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img14.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img15.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span>-25%</span>
+                    <div class="product-img">
+                        <img src="./assets/img/product/img16.webp" alt="">
+                    </div>
+                    <h4 class="name-product">D33-AK1 Baby Jacket Acubi</h4>
+                    <div class="cash-product">
+                        <del>430.000đ</del>
+                        <br>
+                        <span>370.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="more-view">
+                <button>Xem thêm</button>
+            </div>
+        </div>
+        <hr>
+        <div class="news">
+            <div class="news-child">
+                <div class="news-img">
+                    <img src="./assets/img/news/img1.webp" alt="">
+                </div>
+                <div class="news-text">
+                    <h5>LOCAL BRAND DAVIES RA MẮT THIẾT KẾ LIMITED KẾT NỐI VỚI CỘNG ĐỒNG LGBT.</h5>
+                    <div class="news-day">
+                        <span><i class="fa-solid fa-calendar-days"></i> 14/05/2022</span>
+                        <span><i class="fa-solid fa-comment"></i> 2 bình luận</span>
+                    </div>
+                    <p>                                  
+                        Table of Contents Local brand là gì? Davies có phải là local brand?
+                        Local brand sở hữu qui trình tự thiết kế và sản xuất.Các loại sản...
+                    </p>
+                </div>
+            </div>
+            <div class="news-child">
+                <div class="news-img">
+                    <img src="./assets/img/news/img2.webp" alt="">
+                </div>
+                <div class="news-text">
+                    <h5>LOCAL BRAND LÀ GÌ VÀ CÁC THUẬT NGỮ</h5>
+                    <div class="news-day">
+                        <span><i class="fa-solid fa-calendar-days"></i> 28/09/2021</span>
+                        <span><i class="fa-solid fa-comment"></i> 7 bình luận</span>
+                    </div>
+                    <p>
+                        Local brand Davies có thực sự ủng hộ cộng đồng LGBT trong thiết
+                         kế Limited mới?Lấy mốc thời gian 17/05 ngày quốc tế chống...
+                    </p>
+                </div>
+            </div>
+            <div class="news-child">
+                <div class="news-img">
+                    <img src="./assets/img/news/img3.webp" alt="">
+                </div>
+                <div class="news-text">
+                    <h5>LOCAL BRAND DƯỚI 200K: MUA ĐƯỢC GÌ</h5>
+                    <div class="news-day">
+                        <span><i class="fa-solid fa-calendar-days"></i> 20/09/2021</span>
+                        <span><i class="fa-solid fa-comment"></i> 7 bình luận</span>
+                    </div>
+                    <p>
+                        Nội dung bài viết: Tổng hợp danh sách những sản phẩm local brand dưới 200k.
+                        Áo thun local brand dưới 200k đơn giản dễ phối. Ví local brand đẹp với...
+                    </p>
+                </div>
+            </div>
+            <div class="news-child">
+                <div class="news-img">
+                    <img src="./assets/img/news/img4.webp" alt="">
+                </div>
+                <div class="news-text">
+                    <h5>ÁO KHOÁC LOCAL BRAND : TOP 3 KIỂU DÁNG KHIẾN CÁC BẠN NAM PHÁT CUỒNG.</h5>
+                    <div class="news-day">
+                        <span><i class="fa-solid fa-calendar-days"></i> 20/08/2021</span>
+                        <span><i class="fa-solid fa-comment"></i> 8 bình luận</span>
+                    </div>
+                    <p>
+                        Dựa vào tính thẩm mỹ và tính ứng dụng cao, áo khoác local brand vốn được
+                        các bạn trẻ săn đón. Nhưng trong sự sáng tạo không...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- footer -->
+    <footer>
+        <section>
+            <div class="logo-footer">
+                <a href=""><img src="./assets/img/logo_banner/logo1_preview_rev_1.png" alt=""></a>
+            </div>
+            <div class="rules">
+                Điều khoản
+                <i onclick="openRules()" id="i1" class="fa-sharp fa-solid fa-chevron-down"></i>
+                <ul id="rules">
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Danh sách cửa hàng</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Bảng số đo</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Tiêu chuẩn chất lượng</li>
+                </ul>
+            </div>
+            <div class="help">
+                Hỗ trợ
+                <i onclick="openHelp()" id="i2" class="fa-sharp fa-solid fa-chevron-down"></i>
+                <ul id="help">
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Giới thiệu thương hiệu</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Chính sách nhượng quyền</li>
+                </ul>
+            </div>
+            <div class="policy">
+                Chính sách
+                <i onclick="openPolicy()" id="i3" class="fa-sharp fa-solid fa-chevron-down"></i>
+                <ul id="policy">
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Chính sách thanh toán</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Chính sách giao hàng</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Chính sách mua hàng</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Chính sách đổi trả</li>
+                    <li><img src="./assets/img/logo_banner/icon.webp" alt="">Chính sách bảo mật</li>
+                </ul>
+            </div>
+            <div class="chung-nhan">
+                Chứng nhận
+                <i onclick="openChungNhan()" id="i4" class="fa-sharp fa-solid fa-chevron-down"></i>
+                <img id="chung-nhan" src="./assets/img/logo_banner/bocongthuong.webp" alt="">
+            </div>
+        </section>
+    </footer>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
